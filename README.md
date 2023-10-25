@@ -1,24 +1,27 @@
 # vms-azure
 <p align="center">
-<img src="https://i.imgur.com/Bp7tRX1.png" height="40%" width="60%" alt="Microsoft Azure Logo"/>
-</p>
+  
+![Screen Shot 2023-10-25 at 5 06 00 PM](https://github.com/Courela23/vms-azure/assets/136120929/49928605-b34e-4b09-afe9-0ec252411ef5)
+ </p>
 <h1>Creating a Virtual Machine (VM) in Microsoft Azure</h1>
-This project demonstartes how to create a virtual machine in Azure and view the created topology using Network Watcher.<br />
+This project showcases the procedure for provisioning a virtual machine in the Azure cloud and examining the resulting network structure using Network Watcher.<br />
 
-<h2>Requirements</h2>
+<h2>Things youw will need</h2>
 
-- Computer with internet connection
 - Microsoft Azure account
-  - Credit card (required for free Azure credits)
+- Computer with a good internet connection
+
+
 
 <h2>High-Level Steps</h2>
 
-- Select “Virtual machines” and select to Create an “Azure virtual machine”
-- Fill in the required fields on the “Basics” page
-- Click “Review + create”
-- Click “Create” if the VM has passed validation
-- View newly created VM in Network Watcher
-- Delete Resource Groups to minimize charges to free Azure credits
+- Create a resource group.
+- Navigate to "Virtual machines" and choose "Create Azure virtual machine."
+- Complete the mandatory fields on the "Basics" Tab.
+- Proceed to "Review + create."
+- If the VM successfully passes validation, proceed to "Create."
+- After the VM is created, you can inspect it in Network Watcher.
+- To optimize your Azure credit usage, consider removing unnecessary Resource Groups.
 
 <h2>Summary</h2>
 
