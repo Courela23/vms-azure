@@ -30,11 +30,26 @@ This project showcases the procedure for provisioning a virtual machine in the A
 
 <p>
 <h2>Creating the VM </h2>
+</p>
+<p> 
+  
+![image](https://github.com/Courela23/vms-azure/assets/136120929/d44b7807-8b10-4af8-85e9-e6f0fec2b852) </h2>
+![Screen Shot 2023-10-25 at 7 24 36 PM](https://github.com/Courela23/vms-azure/assets/136120929/dded9ff5-af93-48fc-97fe-4491ea798292)
 
 To create a virtual machine (VM) in Azure, first, sign in to the Azure Portal, then use the search bar to find "Virtual Machines." In the search results, click on "Virtual Machines," and select "+ Add" to begin the VM creation process. Fill in the necessary information, including the VM's name, operating system, authentication method, and size. Configure additional settings if required, review your choices, and click "Create" to initiate the VM deployment.
 
 <p>
 <h2>Connecting to VM</h2>
+</p>
+<p> 
+  
+![image](https://github.com/Courela23/vms-azure/assets/136120929/25ab8b8e-dca3-403b-be9c-897e6b257615)
+
+
+![image](https://github.com/Courela23/vms-azure/assets/136120929/6b324853-e440-49dd-89d6-fc856e459589)
+
+![image](https://github.com/Courela23/vms-azure/assets/136120929/375b97d0-04eb-4733-a117-051d248da07d)
+
 
 To remotely connect to an Azure Virtual Machine (VM), use Remote Desktop Protocol (RDP) for Windows VMs or SSH for Linux VMs. For Windows, open the Remote Desktop client and enter the VM's public IP address with your provided username and password. For Linux, open your terminal or SSH client and use the "ssh" command with the VM's username and public IP. Ensure that the necessary network security group rules are configured to allow RDP or SSH traffic, and follow best practices for secure remote access.
 
